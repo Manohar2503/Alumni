@@ -30,7 +30,7 @@ try {
         throw new Error("Invalid Mentor data");
     }
     
-
+    
 
 } catch (error) {
     res.status(500).json({message:"Server error"});
